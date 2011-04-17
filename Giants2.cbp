@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Giants2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Giants2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="..\irrlicht-1.7.2\include" />
+					<Add directory="..\irrBullet-0.1.7\source" />
+					<Add directory="..\irrBullet-0.1.7\source\bheaders" />
+					<Add directory="..\irrBullet-0.1.7\source\bheaders\Bullet" />
+					<Add directory="..\Giants2" />
+					<Add directory="..\irrBullet-0.1.71\source" />
+					<Add directory="..\irrBullet-0.1.71\source\bheaders" />
+					<Add directory="..\irrBullet-0.1.71\source\bheaders\Bullet" />
+				</Compiler>
+				<Linker>
+					<Add library="..\irrlicht-1.7.2\lib\Win32-gcc\libIrrlicht.dll.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\Release\libirrBullet.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libBulletDynamics.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libBulletSoftBody.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libGIMPACTUtils.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libLinearMath.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libBulletCollision.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output=".\Giants2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="..\irrlicht-1.7.2\include" />
+					<Add directory="..\irrBullet-0.1.7\source" />
+					<Add directory="..\irrBullet-0.1.7\source\bheaders" />
+					<Add directory="..\irrBullet-0.1.7\source\bheaders\Bullet" />
+					<Add directory="..\Giants2" />
+					<Add directory="..\irrBullet-0.1.71\source" />
+					<Add directory="..\irrBullet-0.1.71\source\bheaders" />
+					<Add directory="..\irrBullet-0.1.71\source\bheaders\Bullet" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\irrlicht-1.7.2\lib\Win32-gcc\libIrrlicht.dll.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\Release\libirrBullet.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libBulletDynamics.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libBulletSoftBody.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libGIMPACTUtils.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libLinearMath.a" />
+					<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libBulletCollision.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="..\irrlicht-1.7.2\include" />
+			<Add directory="..\irrBullet-0.1.71\source" />
+			<Add directory="..\irrBullet-0.1.71\source\bheaders" />
+			<Add directory="..\irrBullet-0.1.71\source\bheaders\Bullet" />
+			<Add directory="..\Giants2" />
+			<Add directory="..\..\Program Files\Microsoft DirectX 9.0 SDK (August 2005)\Include" />
+			<Add directory="C:\Program Files\CodeBlocks\MinGW\include\GL" />
+		</Compiler>
+		<Linker>
+			<Add library="..\irrlicht-1.7.2\lib\Win32-gcc\libIrrlicht.dll.a" />
+			<Add library="..\irrBullet-0.1.7\lib\win32_gcc\Release\libirrBullet.a" />
+			<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libBulletDynamics.a" />
+			<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libBulletSoftBody.a" />
+			<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libGIMPACTUtils.a" />
+			<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libLinearMath.a" />
+			<Add library="..\irrBullet-0.1.7\lib\win32_gcc\libBulletCollision.a" />
+		</Linker>
+		<Unit filename="AI.cpp" />
+		<Unit filename="AI.h" />
+		<Unit filename="MastEventReceiver.cpp" />
+		<Unit filename="MastEventReceiver.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mecc.cpp" />
+		<Unit filename="mecc.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

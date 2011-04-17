@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="AI.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="1987" topLine="0" />
+	</File>
+	<File name="AI.h" open="1" top="0" tabpos="6">
+		<Cursor position="1095" topLine="10" />
+	</File>
+	<File name="MastEventReceiver.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="1847" topLine="30" />
+	</File>
+	<File name="MastEventReceiver.h" open="0" top="0" tabpos="6">
+		<Cursor position="1809" topLine="42" />
+	</File>
+	<File name="game.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="4366" topLine="138" />
+	</File>
+	<File name="game.h" open="1" top="0" tabpos="2">
+		<Cursor position="1084" topLine="18" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="532" topLine="0" />
+	</File>
+	<File name="mecc.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="5009" topLine="193" />
+	</File>
+	<File name="mecc.h" open="1" top="0" tabpos="4">
+		<Cursor position="1405" topLine="6" />
+	</File>
+</CodeBlocks_layout_file>
